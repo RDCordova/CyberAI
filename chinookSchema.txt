@@ -1,0 +1,352 @@
+Redshit table definion
+
+
+CREATE TABLE album (
+AlbumId bigint NOT NULL,
+Title varchar(25),
+R_COMMENT varchar(152))
+diststyle all;
+
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("{Title} (AlbumId = {AlbumId})")]
+    public class Album
+    {
+        [Key]
+        public int AlbumId { get; set; }
+
+        [Required, MaxLength(160)]
+        public string Title { get; set; }
+
+        [Required]
+        public int ArtistId { get; set; }
+
+        [ForeignKey("ArtistId")]
+        public Artist Artist { get; set; }
+    }
+}
+
+#
+
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("{Name} (ArtistId = {ArtistId})")]
+    public class Artist
+    {
+        [Key]
+        public int ArtistId { get; set; }
+
+        [Required, MaxLength(120)]
+        public string Name { get; set; }
+    }
+}
+#
+
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics;
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("{FirstName} {LastName} (CustomerId = {CustomerId})")]
+    public class Customer
+    {
+        [Key]
+        public int CustomerId { get; set; }
+
+        [Required, MaxLength(20)]
+        public string FirstName { get; set; }
+
+        [Required, MaxLength(20)]
+        public string LastName { get; set; }
+
+        [MaxLength(80)]
+        public string Company { get; set; }
+
+        [MaxLength(70)]
+        public string Address { get; set; }
+
+        [MaxLength(40)]
+        public string City { get; set; }
+
+        [MaxLength(40)]
+        public string State { get; set; }
+
+        [MaxLength(40)]
+        public string Country { get; set; }
+
+        [MaxLength(10)]
+        public string PostalCode { get; set; }
+
+        [MaxLength(24)]
+        public string Phone { get; set; }
+
+        [MaxLength(24)]
+        public string Fax { get; set; }
+
+        [MaxLength(60)]
+        public string Email { get; set; }
+
+        public int SupportRepId { get; set; }
+
+        [ForeignKey("SupportRepId")]
+        public Employee SupportRep { get; set; }
+    }
+}
+
+#
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics;
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("{FirstName} {LastName} (EmployeeId = {EmployeeId})")]
+    public class Employee
+    {
+        [Key]
+        public int EmployeeId { get; set; }
+
+        [Required, MaxLength(20)]
+        public string LastName { get; set; }
+
+        [Required, MaxLength(20)]
+        public string FirstName { get; set; }
+
+        [MaxLength(30)]
+        public string Title { get; set; }
+
+        public int ReportsTo { get; set; }
+
+        public DateTime BirthDate { get; set; }
+
+        public DateTime HireDate { get; set; }
+
+        [MaxLength(70)]
+        public string Address { get; set; }
+
+        [MaxLength(40)]
+        public string City { get; set; }
+
+        [MaxLength(40)]
+        public string State { get; set; }
+
+        [MaxLength(40)]
+        public string Country { get; set; }
+
+        [MaxLength(10)]
+        public string PostalCode { get; set; }
+
+        [MaxLength(24)]
+        public string Phone { get; set; }
+
+        [MaxLength(24)]
+        public string Fax { get; set; }
+
+        [MaxLength(60)]
+        public string Email { get; set; }
+
+        [ForeignKey("ReportsTo")]
+        public Employee ReportsToManager { get; set; }
+    }
+}
+
+#
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("{Name} (GenreId = {GenreId})")]
+    public class Genre
+    {
+        [Key]
+        public int GenreId { get; set; }
+
+        [MaxLength(120)]
+        public string Name { get; set; }
+    }
+}
+
+#
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("InvoiceId = {InvoiceId}")]
+    public class Invoice
+    {
+        [Key]
+        public int InvoiceId { get; set; }
+
+        [Required]
+        public int CustomerId { get; set; }
+
+        [Required]
+        public DateTime InvoiceDate { get; set; }
+
+        [MaxLength(70)]
+        public string BillingAddress { get; set; }
+
+        [MaxLength(40)]
+        public string BillingCity { get; set; }
+
+        [MaxLength(40)]
+        public string BillingState { get; set; }
+
+        [MaxLength(40)]
+        public string BillingCountry { get; set; }
+
+        [MaxLength(10)]
+        public string BillingPostalCode { get; set; }
+
+        [Required]
+        public Decimal Total { get; set; }
+
+        [ForeignKey("CustomerId")]
+        public Customer Customer { get; set; }
+    }
+}
+
+# 
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics;
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("InvoiceLineId = {InvoiceLineId}")]
+    public class InvoiceLine
+    {
+        [Key]
+        public int InvoiceLineId { get; set; }
+
+        [Required]
+        public int CustomerId { get; set; }
+
+        [Required]
+        public int TrackId { get; set; }
+
+        [Required]
+        public decimal UnitPrice { get; set; }
+
+        [Required]
+        public int Quantity { get; set; }
+
+        [ForeignKey("CustomerId")]
+        public Customer Customer { get; set; }
+
+        [ForeignKey("TrackId")]
+        public Track Track { get; set; }
+    }
+}
+
+#
+
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("{Name} (MediaTypeId = {MediaTypeId})")]
+    public class MediaType
+    {
+        [Key]
+        public int MediaTypeId { get; set; }
+
+        [MaxLength(120)]
+        public string Name { get; set; }
+    }
+}
+
+#
+
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("{Name} (PlaylistId = {PlaylistId})")]
+    public class Playlist
+    {
+        [Key]
+        public int PlaylistId { get; set; }
+
+        [Required, MaxLength(120)]
+        public string Name { get; set; }
+    }
+}
+
+#
+
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics;
+using System.Runtime.Serialization;
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("PlaylistId = {PlaylistId}, TrackId = {TrackId}")]
+    public class PlaylistTrack
+    {
+        [Key, Column(Order=1)]
+        public int PlaylistId { get; set; }
+
+        [Key, Column(Order = 2)]
+        public int TrackId { get; set; }
+
+        [ForeignKey("PlaylistId")]
+        public Playlist Playlist { get; set; }
+
+        [ForeignKey("TrackId")]
+        public Track Track { get; set; }
+    }
+}
+
+#
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics;
+
+namespace ChinookDatabase.DataModel
+{
+    [DebuggerDisplay("{Name} (TrackId = {TrackId})")]
+    public class Track
+    {
+        [Key]
+        public int TrackId { get; set; }
+
+        [Required, MaxLength(200)]
+        public string Name { get; set; }
+
+        public int AlbumId { get; set; }
+
+        public int MediaTypeId { get; set; }
+
+        public int GenreId { get; set; }
+
+        [MaxLength(220)]
+        public string Composer { get; set; }
+
+        public int Miliseconds { get; set; }
+
+        public int Bytes { get; set; }
+
+        public decimal UnitPrice { get; set; }
+
+        [ForeignKey("AlbumId")]
+        public Album Album { get; set; }
+
+        [ForeignKey("MediaTypeId")]
+        public MediaType MediaType { get; set; }
+
+        [ForeignKey("GenreId")]
+        public Genre Genre { get; set; }
+    }
+}
+
+#
