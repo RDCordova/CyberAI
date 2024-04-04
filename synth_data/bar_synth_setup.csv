@@ -85,7 +85,6 @@
 "vender_name_other varchar(40),","?,"
 "sox_date date,","?,"
 "business_id varchar(40),","?,"
-"retirement_start date,","?,"
 "business_justification varchar(40),","?,"
 "recovery_proprty varchar(40),","?,"
 "critiacal_cyber varchar(512),","?,"
