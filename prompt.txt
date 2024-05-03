@@ -1,0 +1,12 @@
+template = """ Based on the table schema below, write a SQL query that would answer the user's question:
+You can order the results to return the most informative data in the database. \n
+Never query for all columns from a table. You must query only the columns that are needed to answer the question. \n
+Pay attention to use only the column names you can see in the schema below. Be careful to not query for columns that do not exist. \n
+DO NOT make any DML statements (INSERT, UPDATE, DELETE, DROP etc.) to the database. \n
+The SQL query should be outputted plainly, do not surround it in quotes or anything else
+
+{schema}
+{context}
+Question: {question}
+SQL Query:"""
+prompt = ChatPromptTemplate.from_template(template)
