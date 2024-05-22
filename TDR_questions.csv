@@ -1,0 +1,100 @@
+﻿" What are the precise timestamps, including milliseconds and time zone, for each threat event?"
+" What IP addresses, both internal and external, are associated with each threat event?"
+ What hostnames correspond to the IP addresses involved in the threat events?
+ What MAC addresses are linked to the devices involved in the threat events?
+ What geolocation data is available for the external IP addresses involved in the threat events?
+ What network segments were involved in the threat events?
+ What specific threat classifications and sub-classifications are recorded?
+ What malware signatures are associated with the threat events?
+ What exploit kits were used in the threat events?
+ What attack vectors were employed by the threat actors?
+ What severity levels are assigned to each threat event?
+ What risk scores are associated with the threat events?
+" What contextual information, such as asset criticality, is provided for each threat event?"
+ What data sensitivity levels are affected by the threat events?
+ What potential business impacts are identified for each threat event?
+ What sequences of actions were performed by the threat actors?
+ What command execution logs are available?
+ What file modifications were made during the threat events?
+ What network traffic patterns were observed during the threat events?
+ What user interactions were logged during the threat events?
+ Were any automated alerts triggered by the threat events?
+ What notifications were sent out in response to the threat events?
+ What escalations occurred as a result of the threat events?
+ What were the response times for the security operations team?
+ What actions did the security operations team take in response to the threat events?
+ What patterns can be identified in the frequency of similar threat events?
+ What trends are observed in the timing of similar threat events?
+ What characteristics are common among similar threat events?
+ How do the patterns correlate with known attack campaigns?
+ How do the patterns correlate with known threat actor groups?
+ What user accounts were involved in the threat events?
+ What roles do the involved user accounts have within the organization?
+ What privileges do the involved user accounts possess?
+ What authentication methods were used by the involved user accounts?
+ What historical behavior is recorded for the involved user accounts?
+ What deviations from established baselines are observed?
+ What unexpected network traffic was detected?
+ What unusual user activities were logged?
+ What anomalies in system performance were noted?
+ What measures are in place to ensure the integrity of the log files?
+ What cryptographic hashes are used to verify log file integrity?
+ What secure storage practices are employed for log files?
+ How often are log files audited for completeness and integrity?
+ What non-repudiation techniques are used to maintain log file reliability?
+ What methods are used to correlate log data from different sources?
+ What cross-references exist between different log files?
+ What event correlation techniques are employed?
+ What SIEM (Security Information and Event Management) tools are used?
+ What real-time analysis capabilities are in place for threat detection?
+ What historical data is available for comparative analysis?
+ What threat intelligence feeds are integrated with the log analysis?
+ What known Indicators of Compromise (IOCs) are present in the log files?
+ What unknown IOCs can be identified through log analysis?
+ What behavioral analysis techniques are used to detect anomalies?
+ What machine learning models are employed for threat detection?
+ What incident response procedures are documented in the log files?
+ What forensic analysis methods are used on the log data?
+ What data retention policies govern the storage of log files?
+ What access controls are in place to protect log files?
+ What encryption methods are used for log file storage and transmission?
+ What compliance requirements dictate log file management practices?
+ What internal audits are conducted to ensure compliance with log management policies?
+ What external audits are required by regulatory bodies?
+ What data loss prevention (DLP) measures are in place?
+ What endpoint detection and response (EDR) tools are used?
+ What network intrusion detection systems (NIDS) are deployed?
+ What host-based intrusion detection systems (HIDS) are in use?
+ What firewalls and access control lists (ACLs) are in place?
+ What VPN and remote access logs are available for analysis?
+ What email security logs are reviewed for potential threats?
+ What web proxy logs are analyzed for suspicious activity?
+ What DNS logs are available for threat hunting?
+ What database activity monitoring (DAM) logs are reviewed?
+ What cloud security logs are integrated with the log analysis platform?
+ What third-party vendor logs are included in the analysis?
+ What physical security logs are correlated with cyber threat events?
+ What operational technology (OT) logs are reviewed for cyber-physical threats?
+ What mobile device management (MDM) logs are included in the analysis?
+ What application logs are reviewed for potential vulnerabilities?
+ What operating system logs are analyzed for security events?
+ What network flow data is used to supplement log analysis?
+ What packet capture (PCAP) data is reviewed for deep packet inspection?
+ What dark web monitoring results are integrated with log analysis?
+ What social media monitoring tools are used for threat intelligence?
+ What user behavior analytics (UBA) tools are employed?
+ What insider threat detection methods are in place?
+ What honeypots or deception technologies are used to gather threat intelligence?
+ What penetration testing results are reviewed for correlation with log data?
+ What vulnerability scan results are included in the threat analysis?
+ What patch management logs are reviewed for compliance?
+ What software inventory logs are analyzed for unauthorized applications?
+ What change management logs are reviewed for unauthorized changes?
+ What privileged access management (PAM) logs are included in the analysis?
+ What configuration management logs are reviewed for deviations from standards?
+ What backup and disaster recovery logs are analyzed for potential data loss?
+ What incident timeline is constructed from the log data?
+ What root cause analysis (RCA) is performed on the threat events?
+ What lessons learned are documented from the log analysis?
+ What security awareness training logs are reviewed for user compliance?
+ What continuous monitoring and improvement processes are in place to enhance log analysis capabilities?
