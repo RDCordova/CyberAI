@@ -1,4 +1,3 @@
-Security Questions
 What security events are associated with the user John Doe?
 Analyze all security events on all hosts and identify any specific outliers.
 "Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario. Highlight hosts, threats, key events and connections between them."
@@ -198,3 +197,4 @@ Draw the threat attack vector diagram for the attack on 10/16/2024.
 Analyze security events related to host13 and 10/14/2024. Compare the intention of the attacker. Are they the same or different?
 Describe the threat attack vector on wstp-spara017.
 Analyze security events related to host12 and host9. Compare the intention of the attacker. Are they the same or different?
+What security events are associated with the user wstp-spara017?
