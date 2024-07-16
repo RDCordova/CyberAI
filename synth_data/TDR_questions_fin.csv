@@ -1,0 +1,200 @@
+Security Questions
+What security events are associated with the user John Doe?
+Analyze all security events on all hosts and identify any specific outliers.
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario. Highlight hosts, threats, key events and connections between them."
+Analyze security events from each of the hosts. Compare and contrast them. Is there any attack?
+List the hosts with their host names that have communicated with ZProxy Server.
+Analyze activity of John Doe. Was there any malicious intent on the part of John Doe or was his workstation compromised? Please advise me on how to resolve the issue.
+"Analyze activity of Jane Doe. Identify all malicious activities where remediation action is required. Provide a runbook with detailed steps for remediation action items. Where application, generate the code for automated remediation."
+Analyze security events related to host1 and host2. Compare the intention of the attacker on host 1 and host 2. Are they the same or different?
+What hosts are compromised?
+Describe in detail the activities on wstp-spara013.
+Describe the threat attack vector on wstp-spara013.
+Provide details of the compromise that occurred.
+What hosts were compromised during the attack on 05/22/2024?
+"Can you provide attack details on host 13 that includes time stamps, MITRE ATT&CK framework tactics including remediation actions?"
+Provide a runbook of remediation activities of the compromise that occurred on 10/13/2024.
+Draw the threat attack vector diagram for the attack on host 20?
+Create a detailed playbook for the security threat on the host and include pseudo code to remediate the compromises where possible or relevant.
+Please summarize the lasts attack.
+Compare the attacks on host 17 and 20.
+What was the source of the attack on host 19?
+Describe in detail the activities on host26.
+What hosts were compromised during the attack on Eve?
+Please summarize the latest attack on 10/16/2024.
+What security events are associated with the user host27?
+Create a detailed playbook for the security threat on host26 and include pseudo code to remediate the compromises where possible or relevant.
+"Can you provide attack details on ZProxy Server that include timestamps, MITRE ATT&CK framework tactics including remediation actions?"
+Please summarize the latest attack on wstp-spara016.
+What was the source of the attack on 10/17/2024?
+List the hosts with their host names that have communicated with 10/14/2024.
+Describe the threat attack vector on 10/16/2024.
+Create a detailed playbook for the security threat on ZProxy Server and include pseudo code to remediate the compromises where possible or relevant.
+"Analyze activity of host21. Identify all malicious activities where remediation action is required. Provide a runbook with detailed steps for remediation action items. Where applicable, generate the code for automated remediation."
+Create a detailed playbook for the security threat on Charlie and include pseudo code to remediate the compromises where possible or relevant.
+Which hosts are compromised in wstp-spara014?
+Create a detailed playbook for the security threat on ZProxy Server and include pseudo code to remediate the compromises where possible or relevant.
+Provide a runbook of remediation activities of the compromise that occurred on Bob.
+What hosts were compromised during the attack on 10/14/2024?
+List the hosts with their host names that have communicated with host22.
+Provide details of the compromise that occurred on ZProxy Server.
+Analyze security events from wstp-spara014. Compare and contrast them. Is there any attack?
+Create a detailed playbook for the security threat on host21 and include pseudo code to remediate the compromises where possible or relevant.
+Which hosts are compromised in host23?
+What security events are associated with the user host21?
+Describe the threat attack vector on wstp-spara016.
+Create a detailed playbook for the security threat on Charlie and include pseudo code to remediate the compromises where possible or relevant.
+Provide details of the compromise that occurred on wstp-spara014.
+Analyze security events related to host23. Compare the intention of the attacker. Are they the same or different?
+Analyze security events from wstp-spara013. Compare and contrast them. Is there any attack?
+"Analyze activity of host18. Identify all malicious activities where remediation action is required. Provide a runbook with detailed steps for remediation action items. Where applicable, generate the code for automated remediation."
+Please summarize the latest attack on 05/22/2024.
+What was the source of the attack on wstp-spara016?
+Create a detailed playbook for the security threat on 10/16/2024 and include pseudo code to remediate the compromises where possible or relevant.
+Analyze security events from host22. Compare and contrast them. Is there any attack?
+Please summarize the latest attack on host10.
+Analyze security events from host11. Compare and contrast them. Is there any attack?
+"Analyze activity of host8. Identify all malicious activities where remediation action is required. Provide a runbook with detailed steps for remediation action items. Where applicable, generate the code for automated remediation."
+Describe the threat attack vector on Alice.
+Analyze activity of host6. Was there any malicious intent or was their workstation compromised? Please advise on how to resolve the issue.
+Provide a runbook of remediation activities of the compromise that occurred on host11.
+Analyze activity of host2. Was there any malicious intent or was their workstation compromised? Please advise on how to resolve the issue.
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host24. Highlight hosts, threats, key events, and connections between them."
+Provide a runbook of remediation activities of the compromise that occurred on Bob.
+Draw the threat attack vector diagram for the attack on host3.
+Describe the threat attack vector on wstp-spara015.
+Provide a runbook of remediation activities of the compromise that occurred on Bob.
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host22. Highlight hosts, threats, key events, and connections between them."
+List the hosts with their host names that have communicated with host23.
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for 10/13/2024. Highlight hosts, threats, key events, and connections between them."
+"Analyze activity of host19. Identify all malicious activities where remediation action is required. Provide a runbook with detailed steps for remediation action items. Where applicable, generate the code for automated remediation."
+Describe in detail the activities on host12.
+List the hosts with their host names that have communicated with host27.
+What was the source of the attack on host22?
+Analyze activity of host19. Was there any malicious intent or was their workstation compromised? Please advise on how to resolve the issue.
+Describe in detail the activities on Charlie.
+"Can you provide attack details on host11 that include timestamps, MITRE ATT&CK framework tactics including remediation actions?"
+What hosts were compromised during the attack on host5?
+Describe the threat attack vector on host28.
+Provide a runbook of remediation activities of the compromise that occurred on Jane Doe.
+List the hosts with their host names that have communicated with host17.
+"Can you provide attack details on host22 that include timestamps, MITRE ATT&CK framework tactics including remediation actions?"
+What hosts were compromised during the attack on 10/15/2024?
+What was the source of the attack on 05/22/2024?
+Draw the threat attack vector diagram for the attack on 10/15/2024.
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for 10/13/2024. Highlight hosts, threats, key events, and connections between them."
+Create a detailed playbook for the security threat on wstp-spara013 and include pseudo code to remediate the compromises where possible or relevant.
+What security events are associated with the user host1?
+Analyze all security events on host15 and identify any specific outliers.
+Analyze all security events on host27 and identify any specific outliers.
+Describe in detail the activities on host28.
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host19. Highlight hosts, threats, key events, and connections between them."
+What security events are associated with the user host23?
+What security events are associated with the user host28?
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host23. Highlight hosts, threats, key events, and connections between them."
+Provide a runbook of remediation activities of the compromise that occurred on host16.
+What security events are associated with the user host12?
+Analyze activity of wstp-spara017. Was there any malicious intent or was their workstation compromised? Please advise on how to resolve the issue.
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host28. Highlight hosts, threats, key events, and connections between them."
+Describe in detail the activities on 10/16/2024.
+"Can you provide attack details on Eve that include timestamps, MITRE ATT&CK framework tactics including remediation actions?"
+Please summarize the latest attack on host7.
+What hosts were compromised during the attack on host17?
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host2. Highlight hosts, threats, key events, and connections between them."
+What hosts were compromised during the attack on wstp-spara017?
+"Analyze activity of host27. Identify all malicious activities where remediation action is required. Provide a runbook with detailed steps for remediation action items. Where applicable, generate the code for automated remediation."
+Create a detailed playbook for the security threat on host20 and include pseudo code to remediate the compromises where possible or relevant.
+Analyze security events from host9. Compare and contrast them. Is there any attack?
+Analyze all security events on host3 and identify any specific outliers.
+What security events are associated with the user 10/17/2024?
+Please summarize the latest attack on 10/17/2024.
+"Analyze activity of host1. Identify all malicious activities where remediation action is required. Provide a runbook with detailed steps for remediation action items. Where applicable, generate the code for automated remediation."
+Describe in detail the activities on host15.
+Analyze activity of wstp-spara013. Was there any malicious intent or was their workstation compromised? Please advise on how to resolve the issue.
+Provide a runbook of remediation activities of the compromise that occurred on host6.
+What hosts were compromised during the attack on host14?
+Analyze activity of host9. Was there any malicious intent or was their workstation compromised? Please advise on how to resolve the issue.
+Please summarize the latest attack on wstp-spara014.
+Describe the threat attack vector on host12.
+List the hosts with their host names that have communicated with host27.
+Draw the threat attack vector diagram for the attack on host2.
+Which hosts are compromised in John Doe?
+Analyze all security events on 10/16/2024 and identify any specific outliers.
+Compare the attacks on host6 and host24.
+Create a detailed playbook for the security threat on host28 and include pseudo code to remediate the compromises where possible or relevant.
+"Can you provide attack details on host6 that include timestamps, MITRE ATT&CK framework tactics including remediation actions?"
+Analyze all security events on host2 and identify any specific outliers.
+Create a detailed playbook for the security threat on host13 and include pseudo code to remediate the compromises where possible or relevant.
+Analyze activity of host6. Was there any malicious intent or was their workstation compromised? Please advise on how to resolve the issue.
+Create a detailed playbook for the security threat on John Doe and include pseudo code to remediate the compromises where possible or relevant.
+Create a detailed playbook for the security threat on host26 and include pseudo code to remediate the compromises where possible or relevant.
+What security events are associated with the user Eve?
+"Can you provide attack details on host20 that include timestamps, MITRE ATT&CK framework tactics including remediation actions?"
+Describe the threat attack vector on host28.
+Analyze security events related to host19 and host7. Compare the intention of the attacker. Are they the same or different?
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host25. Highlight hosts, threats, key events, and connections between them."
+What security events are associated with the user wstp-spara017?
+"Analyze activity of host20. Identify all malicious activities where remediation action is required. Provide a runbook with detailed steps for remediation action items. Where applicable, generate the code for automated remediation."
+What was the source of the attack on wstp-spara015?
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host2. Highlight hosts, threats, key events, and connections between them."
+What was the source of the attack on 10/16/2024?
+What hosts were compromised during the attack on host18?
+Provide details of the compromise that occurred on host12.
+Provide details of the compromise that occurred on Charlie.
+What hosts were compromised during the attack on 10/16/2024?
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host7. Highlight hosts, threats, key events, and connections between them."
+Provide details of the compromise that occurred on host25.
+Analyze security events from host3. Compare and contrast them. Is there any attack?
+Analyze all security events on host6 and identify any specific outliers.
+What security events are associated with the user host16?
+Analyze security events from 10/14/2024. Compare and contrast them. Is there any attack?
+Provide details of the compromise that occurred on Bob.
+Provide a runbook of remediation activities of the compromise that occurred on host5.
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host4. Highlight hosts, threats, key events, and connections between them."
+Analyze activity of host8. Was there any malicious intent or was their workstation compromised? Please advise on how to resolve the issue.
+Compare the attacks on host5 and wstp-spara013.
+What hosts were compromised during the attack on host4?
+"Can you provide attack details on host15 that include timestamps, MITRE ATT&CK framework tactics including remediation actions?"
+Compare the attacks on Eve and host7.
+Describe the threat attack vector on 05/22/2024.
+Compare the attacks on John Doe and Alice.
+"Analyze activity of 10/17/2024. Identify all malicious activities where remediation action is required. Provide a runbook with detailed steps for remediation action items. Where applicable, generate the code for automated remediation."
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host11. Highlight hosts, threats, key events, and connections between them."
+What security events are associated with the user 10/14/2024?
+Provide details of the compromise that occurred on Alice.
+Analyze security events from 05/22/2024. Compare and contrast them. Is there any attack?
+Provide a runbook of remediation activities of the compromise that occurred on host25.
+Describe in detail the activities on 10/16/2024.
+Describe in detail the activities on host26.
+Provide a runbook of remediation activities of the compromise that occurred on 10/16/2024.
+What was the source of the attack on wstp-spara016?
+Please summarize the latest attack on 10/13/2024.
+"Analyze activity of Jane Doe. Identify all malicious activities where remediation action is required. Provide a runbook with detailed steps for remediation action items. Where applicable, generate the code for automated remediation."
+What was the source of the attack on host22?
+Analyze security events from host25. Compare and contrast them. Is there any attack?
+Provide details of the compromise that occurred on 10/17/2024.
+"Can you provide attack details on 10/15/2024 that include timestamps, MITRE ATT&CK framework tactics including remediation actions?"
+Analyze all security events on host14 and identify any specific outliers.
+What security events are associated with the user Alice?
+What was the source of the attack on host14?
+Describe the threat attack vector on host8.
+Analyze all security events on host22 and identify any specific outliers.
+"Analyze these events and generate visual representation (attack graphs) to depict the potential threat scenario for host15. Highlight hosts, threats, key events, and connections between them."
+Compare the attacks on host5 and host10.
+Describe the threat attack vector on host2.
+Analyze activity of host12. Was there any malicious intent or was their workstation compromised? Please advise on how to resolve the issue.
+Describe the threat attack vector on host22.
+Compare the attacks on host4 and host27.
+Which hosts are compromised in host4?
+What security events are associated with the user host19?
+What was the source of the attack on 10/14/2024?
+Analyze all security events on wstp-spara017 and identify any specific outliers.
+Analyze activity of host22. Was there any malicious intent or was their workstation compromised? Please advise on how to resolve the issue.
+Analyze all security events on host5 and identify any specific outliers.
+Analyze all security events on 10/17/2024 and identify any specific outliers.
+List the hosts with their host names that have communicated with host9.
+List the hosts with their host names that have communicated with host12.
+Draw the threat attack vector diagram for the attack on 10/16/2024.
+Analyze security events related to host13 and 10/14/2024. Compare the intention of the attacker. Are they the same or different?
+Describe the threat attack vector on wstp-spara017.
+Analyze security events related to host12 and host9. Compare the intention of the attacker. Are they the same or different?
